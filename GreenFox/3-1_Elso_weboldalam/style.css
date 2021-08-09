@@ -1,0 +1,154 @@
+/* div {
+
+  background: no-repeat url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  width: 80%;
+fejléc sé idézetek: font-family: 'Abril Fatface', cursive; #222
+bekezdések: font-family: 'Josefin Sans', sans-serif; #222
+feliratok: font-family: 'Merriweather', serif; 15px italic
+
+}
+
+*/
+
+
+body {
+  margin: 0;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: auto;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.txt1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  font-size: 250%;
+}
+
+.txt2 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Abril Fatface', cursive;
+  color: red;
+  font-size: 450%;
+
+}
+
+.name-header {
+  margin: 0;
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  text-align: left;
+}
+
+
+main {
+  margin: auto;
+  width: 45%;
+  /* text-align: justify; */
+
+}
+
+
+img {
+  width: 85%;
+  /* position: absolute; */
+  margin-bottom: 40px;
+
+}
+
+p,
+li {
+
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 19px;
+  line-height: 1.5;
+  text-align: left;
+
+}
+
+.bekezdes {
+
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 30px;
+  /* line-height: 1.5; */
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bekezdes-cim {
+
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 23px;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 900;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+.felirat {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.korom::before {
+  content: '”';
+  font-family: 'Abril Fatface', cursive;
+  font-size: 88px;
+  color: white;
+
+
+}
+
+.idezet {
+  width: 110%;
+  position: relative;
+  left: -40px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 48px;
+  color: white;
+  background-color: #222;
+  margin: auto;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  align-content: center;
+  text-align: left;
+
+}
+
+.strong {
+  padding: 0px;
+  margin-top: -30px;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+
+}
+
+/* Solid border */
+hr.solid {
+  width: 110%;
+  position: relative;
+  left: -30px;
+  border-top: 5px solid black;
+}

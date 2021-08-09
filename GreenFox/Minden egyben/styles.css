@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: auto;
+  /* justify-content: space-around; */
+  /* To be use everywhere as set some basic settings */
+  width: 30%;
+  justify-content: space-between;
+
+  /* csak 30%-át használom a szélességnek, amit később 100% ként töltök ki, de így a 70%-a a kijelzőnek lesz a teljes szélességnek értelmezve */
+
+}
+
+
+.fejlec {
+
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+}
+
+.bal-oldalsav {
+  background-color: orange;
+  height: 600px;
+  width: 100px;
+
+}
+
+.fo-tartalom {
+  height: 600px;
+  width: 300px;
+  background-color: red;
+  justify-self: inline;
+}
+
+.fo-tartalom .fix-doboz {
+  position: relative;
+  /* flex-end and other align and justification didn't worked, so not the best, but after an hour try, a workaround... */
+  top: 530px;
+  left: 230px;
+  /*   */
+  height: 50px;
+  width: 50px;
+  /* margin: 20px; */
+  background-color: black;
+
+}
+
+.jobb-oldalsav {
+  background-color: purple;
+  height: 600px;
+  width: 100px;
+}
+
+.lablec {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}

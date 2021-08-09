@@ -1,0 +1,43 @@
+
+p {
+  color: red;
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  /* position: absolute; */
+  /* right: 100px; */
+  
+}
+
+.flex-container {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.box {
+  /* display: flex; */
+  /* height: 100px; */
+
+  /* background-color: blue; */
+  /* display: flex; */
+}
+
+/* .one {
+  height: 50px;
+  width: 50px;
+  background-color: aqua;
+} */
+
+.two {
+  height: 150px;
+  width: 150px;
+  background-color:red;
+}
+
+.three {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+}

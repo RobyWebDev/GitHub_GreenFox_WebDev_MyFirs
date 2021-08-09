@@ -1,0 +1,19 @@
+h1{
+    color:orange;
+}
+
+h2{
+    color:purple;
+}
+
+.c, .b {
+   list-style-type: upper-roman; 
+}
+
+#colored {
+    color: red;
+}
+
+#square-point {
+    list-style: square;
+}

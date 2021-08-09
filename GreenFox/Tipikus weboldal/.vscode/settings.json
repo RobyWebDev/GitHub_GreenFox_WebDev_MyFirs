@@ -1,0 +1,9 @@
+{
+  "auto-close-tag.fullMode": true,
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+  "better-comments.highlightPlainText": true,
+  "beautify.options": {
+  "editor.formatOnSave": true,
+  
+  }
+}

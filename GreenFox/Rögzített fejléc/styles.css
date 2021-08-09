@@ -1,0 +1,88 @@
+/* div {
+  display: flex;
+}
+
+*/
+nav {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: purple;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  margin-bottom: 100px;
+
+}
+
+
+.nav-button-1 {
+  background-color: cyan;
+  height: 30px;
+  width: 80px;
+  margin: 0 10px 0 100px;
+}
+
+.nav-button-2 {
+  background-color: cyan;
+  height: 30px;
+  width: 120px;
+  margin: 0 10px;
+}
+
+.nav-button-3 {
+  background-color: cyan;
+  height: 30px;
+  width: 80px;
+  margin: 0 10px;
+}
+
+.nav-button-4 {
+  background-color: cyan;
+  height: 30px;
+  width: 80px;
+  margin: 0 10px;
+}
+
+main {
+  display: flex;
+  width: 80%;
+  margin: 80px 100px 10px 100px;
+  /* top 80= 70 navbar + 10px * so the bottom margin should be 10px to be symmetric*/
+
+}
+
+.green-side {
+  flex-grow: 1;
+  background-color: green;
+  height: 850px;
+
+}
+
+.yellow-side {
+  flex-grow: 3;
+  background-color: yellow;
+  height: 850px;
+  margin-bottom: 20 px;
+
+}
+
+.footer-grey {
+  display: flex;
+  margin: 10px 100px 0 100px;
+
+
+  /* position: absolute;
+  top: 495px;
+
+  left: 100px;
+  right: 100px; */
+  width: 80%;
+  height: 80px;
+  background-color: lightgrey;
+  /* align-items: center;
+align-content: center;
+justify-content: center;
+*/
+
+}
